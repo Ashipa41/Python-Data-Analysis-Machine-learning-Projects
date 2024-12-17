@@ -16,9 +16,9 @@ This repository contains a series of Data Analysis Projects designed to demonstr
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 
-Jupyter Notebook
-🚀 Projects
+# 🚀 Projects
 Here’s a brief overview of the projects included in this repository:
 
 Sales Data Analysis
