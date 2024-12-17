@@ -2,13 +2,6 @@
 
 Welcome to my Python Data Analysis Projects repository! This collection showcases various real-life projects where I use Python to extract, clean, analyze, and visualize data to generate actionable insights.
 
-🗂 Table of Contents
-About This Repository
-Tools & Libraries Used
-Projects
-How to Run
-Contact
-
 # 📌 About This Repository
 This repository contains a series of Data Analysis Projects designed to demonstrate my ability to:
 
@@ -48,8 +41,9 @@ HR Employee Data Analysis
 Description: Analyzed HR data to identify employee attrition trends and influencing factors.
 Tech Stack: Python, Pandas, Seaborn
 Key Insights: Found correlations between work-life balance and attrition rates.
-⚙️ How to Run
-To run any project on your local machine:
+
+# ⚙️ How to Run
+## To run any project on your local machine:
 
 Clone the repository:
 bash
