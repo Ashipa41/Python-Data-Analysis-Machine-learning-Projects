@@ -5,10 +5,10 @@ Welcome to my Python Data Analysis Projects repository! This collection showcase
 # 📌 About This Repository
 This repository contains a series of Data Analysis Projects designed to demonstrate my ability to:
 
-Clean and preprocess data using Python libraries like Pandas and NumPy.
-Perform exploratory data analysis (EDA) to uncover hidden patterns and insights.
-Create visualizations using Matplotlib and Seaborn for better storytelling.
-Solve real-world problems by leveraging data-driven techniques.
+- Clean and preprocess data using Python libraries like Pandas and NumPy.
+- Perform exploratory data analysis (EDA) to uncover hidden patterns and insights.
+- Create visualizations using Matplotlib and Seaborn for better storytelling.
+- Solve real-world problems by leveraging data-driven techniques.
 
 # 🛠 Tools & Libraries Used
 - Python
