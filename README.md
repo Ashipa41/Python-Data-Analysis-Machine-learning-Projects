@@ -46,15 +46,15 @@ Key Insights: Found correlations between work-life balance and attrition rates.
 ## To run any project on your local machine:
 
 Clone the repository:
-bash
+```bash
 Copy code
 git clone https://github.com/yourusername/python-data-analysis-projects.git
-cd python-data-analysis-projects
+cd python-data-analysis-projects```
 Open the project folder of your choice.
 Run the Jupyter Notebook:
-bash
+```bash
 Copy code
-jupyter notebook
+jupyter notebook```
 Select the notebook and explore the code!
 🤝 Contact
 Feel free to reach out if you have questions or suggestions:
