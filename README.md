@@ -48,8 +48,9 @@ Key Insights: Found correlations between work-life balance and attrition rates.
 Clone the repository:
 ```bash
 Copy code
-git clone https://github.com/yourusername/python-data-analysis-projects.git
-cd python-data-analysis-projects
+git clone https://github.com/Ashipa41/Python-Data-Analysis-Machine-learning-Projects
+.git
+cd Python-Data-Analysis-Machine-learning-Projects
 ```
 Open the project folder of your choice.
 Run the Jupyter Notebook:
