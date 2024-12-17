@@ -11,11 +11,11 @@ Create visualizations using Matplotlib and Seaborn for better storytelling.
 Solve real-world problems by leveraging data-driven techniques.
 
 # 🛠 Tools & Libraries Used
-**.**Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 Jupyter Notebook
 🚀 Projects
