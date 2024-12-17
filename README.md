@@ -1,4 +1,4 @@
-# 📊  Python-Data-Analysis-Machine-learning-Projects
+# 📊  Python-Data-Analysis/ Machine-learning-Projects
 
 Welcome to my Python Data Analysis Projects repository! This collection showcases various real-life projects where I use Python to extract, clean, analyze, and visualize data to generate actionable insights.
 
