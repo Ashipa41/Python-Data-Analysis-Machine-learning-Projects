@@ -48,7 +48,7 @@ Evaluate the model using:
 - **Confusion Matrix**: Visualize true positives, true negatives, false positives, and false negatives.
 - **Classification Report**: Calculate precision, recall, F1-score, and support for each class.
 - **Accuracy Score**: Measure the overall performance of the model.
-- **Feature Importance**: Analyze the contribution of each feature to the model’s predictions.
+
 
 ---
 
