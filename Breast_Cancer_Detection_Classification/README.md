@@ -3,7 +3,7 @@
 ---
 
 ### **Introduction**
-Breast cancer is one of the most common and life-threatening diseases among women worldwide. Early detection and diagnosis significantly improve survival rates. Machine learning (ML) algorithms have proven to be effective tools for analyzing complex datasets and identifying patterns, enabling the accurate classification of breast cancer cases as malignant (cancerous) or benign (non-cancerous). This document outlines a structured approach to detect breast cancer using ML techniques.
+Breast cancer is one of the most common and life-threatening diseases among women worldwide. Early detection and diagnosis significantly improve survival rates. Machine learning (ML) algorithms have proven to be effective tools for analyzing complex datasets and identifying patterns, enabling the accurate classification of breast cancer cases as malignant (cancerous) or benign (non-cancerous). This document outlines a structured approach to detect breast cancer using .
 
 ---
 
