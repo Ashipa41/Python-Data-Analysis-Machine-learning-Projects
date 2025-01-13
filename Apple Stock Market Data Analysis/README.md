@@ -41,7 +41,7 @@ The scatter plot between closing price and trading volume revealed:
 - The relationship suggests that periods of high trading activity often follow news or major events.
 
 5.  Daily resturns
-Daily returns shows significant fluctuations, with occasional spikes. For short-term traders, this volatility draws attention to both the risk and the opportunity. A mean-reverting pattern is observed, suggesting frequent oscillations around zero daily return
+Daily returns shows significant fluctuations, with occasional spikes. For short-term traders, this volatility draws attention to both the risk and the opportunity. A mean-reverting pattern is observed, suggesting frequent oscillations around zero daily return.
 
 # Conclusion
 
