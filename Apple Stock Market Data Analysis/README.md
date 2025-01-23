@@ -1,6 +1,7 @@
 #                                                    Apple Stock Market Analysis and insights
 # Objective
 The purpose of this analysis was to explore the behavior of Apple Inc.'s stock prices from 2020 to 2024, using various financial metrics and visualizations to gain insights into price trends, returns, volatility, and trading signals.
+![apple-stock-forecast-us](https://github.com/user-attachments/assets/ed0417d6-6e98-4474-97d8-9a7e5ae78e1c)
 
 # About Dataset
 This Dataset Contains 1238 rows and 7 columns. The data span from (2020 - 2024).
