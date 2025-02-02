@@ -7,7 +7,7 @@ This project leverages ML techniques to develop a reliable classification model 
 
 ---
 
-## **Dataset Overview**
+## 📊 **Dataset Overview**
 The analysis is based on the **Breast Cancer Wisconsin Dataset**, which contains features extracted from breast biopsy images. The dataset includes:
 
 - **Diagnosis (Target Variable)**: Labeled as `M` (Malignant) or `B` (Benign).
@@ -16,9 +16,9 @@ The analysis is based on the **Breast Cancer Wisconsin Dataset**, which contains
 
 ---
 
-## **Workflow and Methodology**
+## 🛠️ **Workflow and Methodology**
 
-### **1. Data Preprocessing**
+### ⚙️ **1. Data Preprocessing**
 Before training machine learning models, the dataset undergoes thorough preprocessing:
 
 - **Data Cleaning**: Remove unnecessary columns (e.g., ID column) that do not contribute to prediction.
@@ -28,7 +28,7 @@ Before training machine learning models, the dataset undergoes thorough preproce
 
 ---
 
-### **2. Exploratory Data Analysis (EDA)**
+### 🔍 **2. Exploratory Data Analysis (EDA)**
 EDA provides insights into the dataset through visualizations and statistical analysis:
 
 - **Target Distribution**: Assess the proportion of malignant vs. benign cases.
@@ -38,7 +38,7 @@ EDA provides insights into the dataset through visualizations and statistical an
 
 ---
 
-### **3. Model Development**
+### 🤖 **3. Model Development**
 This project evaluates multiple machine learning models for breast cancer classification. The **HistGradientBoosting classifier** was ultimately chosen based on its high accuracy and generalization ability.
 
 - **Train-Test Split**: The dataset was split into **training (80%)** and **testing (20%)** subsets to ensure unbiased model evaluation.
@@ -56,13 +56,13 @@ Now that we have the accuracy, confusion matrices, and cross-validation scores, 
 
 ### **🚀 Step 1: Accuracy Comparison**
 
-| Model | Accuracy |
+| Model | Accuracy (± Variance) |
 |--------|---------------------|
-| **Logistic Regression** | **95%** |
-| **Random Forest** | **96%** |
-| **AdaBoost** | **97%** |
-| **HistGradientBoosting** | **97%** |
-| **KNN** | **93%** |
+| **Logistic Regression** | **95% (± 0.01)** |
+| **Random Forest** | **96% (± 0.02)** |
+| **AdaBoost** | **97% (± 0.02)** |
+| **HistGradientBoosting** | **97% (± 0.01)** |
+| **KNN** | **93% (± 0.02)** |
 
 ✅ **Best Models (Highest Accuracy):** **AdaBoost & HistGradientBoosting (97%)**  
 ❌ **Weakest Model:** **KNN (93%)**
@@ -126,7 +126,7 @@ Now that we have the accuracy, confusion matrices, and cross-validation scores, 
 
 ---
 
-## **Future Work**
+## 🔮 **Future Work**
 - **Perform Hyperparameter Tuning** for further optimization.
 - **Explore additional ML algorithms** (e.g., Support Vector Machines, XGBoost) for comparative analysis.
 - **Expand the dataset** by incorporating external sources to improve generalizability.
@@ -134,6 +134,6 @@ Now that we have the accuracy, confusion matrices, and cross-validation scores, 
 
 ---
 
-## **Conclusion**
+## 🎯 **Conclusion**
 This project demonstrates the potential of **machine learning** in breast cancer detection. With appropriate **feature selection, normalization, dimensionality reduction, and model tuning**, ML algorithms can deliver highly accurate classification results.
 
