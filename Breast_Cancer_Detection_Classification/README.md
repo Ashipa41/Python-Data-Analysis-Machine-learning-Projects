@@ -56,7 +56,7 @@ Now that we have the accuracy, confusion matrices, and cross-validation scores, 
 
 ### **🚀 Step 1: Accuracy Comparison**
 
-| Model | Accuracy (± Variance) |
+| Model | Accuracy |
 |--------|---------------------|
 | **Logistic Regression** | **95%** |
 | **Random Forest** | **96%** |
