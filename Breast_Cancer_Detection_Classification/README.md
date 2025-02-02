@@ -58,11 +58,11 @@ Now that we have the accuracy, confusion matrices, and cross-validation scores, 
 
 | Model | Accuracy (± Variance) |
 |--------|---------------------|
-| **Logistic Regression** | **95% (± 0.01)** |
-| **Random Forest** | **96% (± 0.02)** |
-| **AdaBoost** | **97% (± 0.02)** |
-| **HistGradientBoosting** | **97% (± 0.01)** |
-| **KNN** | **93% (± 0.02)** |
+| **Logistic Regression** | **95%** |
+| **Random Forest** | **96%** |
+| **AdaBoost** | **97%** |
+| **HistGradientBoosting** | **97%** |
+| **KNN** | **93%** |
 
 ✅ **Best Models (Highest Accuracy):** **AdaBoost & HistGradientBoosting (97%)**  
 ❌ **Weakest Model:** **KNN (93%)**
