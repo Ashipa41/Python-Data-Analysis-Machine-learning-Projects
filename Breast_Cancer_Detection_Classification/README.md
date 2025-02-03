@@ -137,3 +137,9 @@ Now that we have the accuracy, confusion matrices, and cross-validation scores, 
 ## 🎯 **Conclusion**
 This project demonstrates the potential of **machine learning** in breast cancer detection. With appropriate **feature selection, normalization, dimensionality reduction, and model tuning**, ML algorithms can deliver highly accurate classification results.
 
+📝 Author
+
+Developed by Paul
+
+For any inquiries, feel free to reach out!
+
