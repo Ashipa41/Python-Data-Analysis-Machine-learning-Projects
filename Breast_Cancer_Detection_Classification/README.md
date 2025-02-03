@@ -1,4 +1,4 @@
-# **Detecting Breast Cancer Using Machine Learning Algorithms**
+# 📌 Breast Cancer Tumor Detection: Malignant vs. Benign Using Machine Learning
 
 ## **Introduction**
 Breast cancer is one of the most prevalent and life-threatening diseases among women worldwide. Early detection and accurate diagnosis significantly improve survival rates. Machine learning (ML) algorithms have emerged as powerful tools for analyzing complex medical datasets, identifying patterns, and enabling precise classification of breast cancer cases as **malignant (cancerous)** or **benign (non-cancerous)**.
