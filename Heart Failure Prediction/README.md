@@ -92,3 +92,8 @@ The full feature importance distribution is visualized below:
   - Deployment as a web-based application for real-time predictions.
 
 This project successfully built a predictive model for heart disease using machine learning techniques and data preprocessing strategies.
+
+## 📝 Author
+Developed by **Paul**
+
+For any inquiries, feel free to reach out!
