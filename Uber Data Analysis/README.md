@@ -3,7 +3,7 @@
 ---
 
 ### **1. 📝 Introduction**
-This document provides an overview of the analysis conducted on the Uber dataset, focusing on descriptive statistics, trend analysis, geographical insights, and data visualization techniques. The dataset contains records of Uber trips, including trip category, start and stop locations, miles traveled, and trip purpose.
+This project provides an overview of the analysis conducted on the Uber dataset, focusing on descriptive statistics, trend analysis, geographical insights, and data visualization techniques. The dataset contains records of Uber trips, including trip category, start and stop locations, miles traveled, and trip purpose.
 
 ---
 
