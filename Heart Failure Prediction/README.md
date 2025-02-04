@@ -74,5 +74,22 @@ Cardiovascular diseases (CVDs) have led to the deaths of over **18 million peopl
   - Further hyperparameter tuning.
   - Feature engineering to extract more predictive information.
   - Deployment as a web-based application for real-time predictions.
+ 
+  ### **Feature Importance Analysis:** 📊
+Feature importance was analyzed using the **Random Forest** model. The top contributing factors to heart disease prediction are:
+
+1. **ST_Slope_Up** - Most significant predictor
+2. **Oldpeak** - Strong indicator of cardiac stress
+3. **MaxHR** - Maximum heart rate achieved
+4. **ST_Slope_Flat** - Another key ST slope pattern
+5. **ExerciseAngina_Y** - Presence of exercise-induced angina
+6. **Age** - Age plays a major role in risk assessment
+7. **Cholesterol** - Cholesterol levels impact heart health
+8. **RestingBP** - Blood pressure levels contribute to cardiovascular risk
+
+The full feature importance distribution is visualized below:
+
+<img src="image/output.png" alt="Feature" width="500">
+
 
 This project successfully built a predictive model for heart disease using machine learning techniques and data preprocessing strategies.
