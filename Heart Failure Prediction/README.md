@@ -1,7 +1,7 @@
 # **Heart Disease Prediction Project** 🏥
 
 ## **1. Introduction** 📌
-Cardiovascular diseases (CVDs) are the leading cause of death globally. This project aims to predict the likelihood of heart disease using machine learning models. The dataset consists of 11 features that represent various health metrics.
+Cardiovascular diseases (CVDs) have led to the deaths of over **18 million people globally**. This project aims to predict heart failure using machine learning models. The dataset consists of 11 features that represent various health metrics.
 
 ## **2. Dataset Overview** 📊
 - **Number of Records:** 918
@@ -40,31 +40,55 @@ Cardiovascular diseases (CVDs) are the leading cause of death globally. This pro
 - **Precision, Recall, F1-Score**
 - **Confusion Matrix Analysis**
 
-### **Model Comparison Results:**
+### **Model Performance Results:** 📊
 | Model                 | Accuracy | Precision (Macro Avg) | Recall (Macro Avg) | F1-Score (Macro Avg) |
 |----------------------|----------|----------------------|----------------------|----------------------|
-| **Random Forest**         | 86.4%  | 0.860   | 0.861   | 0.861  |
-| **Logistic Regression**   | 86.4%  | 0.860   | **0.867**   | **0.862**  |
-| Gradient Boosting        | 85.3%  | 0.849   | 0.852   | 0.850  |
-| SVM                      | 85.9%  | 0.854   | 0.860   | 0.856  |
-| Decision Tree            | 78.3%  | 0.778   | 0.784   | 0.779  |
+| **Random Forest**         | **85.87%**  | **85.42%**   | **85.67%**   | **85.53%**  |
+| **Logistic Regression**   | 83.69%  | 83.35%   | 84.16%   | 83.50%  |
+| Gradient Boosting        | 83.69%  | 83.21%   | 83.80%   | 83.41%  |
+| SVM                      | 82.61%  | 82.26%   | 83.04%   | 82.40%  |
+| Decision Tree            | 77.17%  | 77.08%   | 77.83%   | 77.00%  |
+
+### **Confusion Matrix Analysis:** 🔍
+| Model                 | True Positives | True Negatives | False Positives | False Negatives | Conclusion |
+|----------------------|----------------|----------------|----------------|----------------|-------------|
+| **Random Forest**         | 93             | 65             | 12             | 14             | **Balanced model with high accuracy and low false negatives.** |
+| **Logistic Regression**   | 87             | 67             | 10             | 20             | **Decent model but slightly weaker recall than Random Forest.** |
+| **Decision Tree**         | 79             | 63             | 14             | 28             | **Overfitting issue likely. Performs worse than other models.** |
+| **Gradient Boosting**     | 89             | 65             | 12             | 18             | **Good alternative model, but slightly higher false negatives.** |
+| **SVM**                  | 86             | 66             | 11             | 21             | **Performs decently, but not the best model.** |
+
+### **Feature Importance Analysis:** 📊
+Feature importance was analyzed using the **Random Forest** model. The top contributing factors to heart disease prediction are:
+
+1. **ST_Slope_Up** - Most significant predictor
+2. **Oldpeak** - Strong indicator of cardiac stress
+3. **MaxHR** - Maximum heart rate achieved
+4. **ST_Slope_Flat** - Another key ST slope pattern
+5. **ExerciseAngina_Y** - Presence of exercise-induced angina
+6. **Age** - Age plays a major role in risk assessment
+7. **Cholesterol** - Cholesterol levels impact heart health
+8. **RestingBP** - Blood pressure levels contribute to cardiovascular risk
+
+The full feature importance distribution is visualized below:
+
+![Feature Importance - Random Forest](output.png)
 
 ### **Best Model:** 🏆
-- **Logistic Regression** performed the best with **86.4% accuracy** and the highest recall (86.7%), making it the most suitable model for identifying heart disease cases.
+- **Random Forest** performed the best with **85.87% accuracy** and the highest recall (85.67%), making it the most suitable model for identifying heart disease cases.
 
 ## **6. Hyperparameter Tuning** 🎛️
-- Grid Search performed to optimize `C` (regularization strength) and solver type.
+- Grid Search performed to optimize `C` (regularization strength) and solver type for Logistic Regression.
 - Best parameters found:
   - `C = 0.1`
   - `solver = 'liblinear'`
 - Tuned model improved generalization and maintained high accuracy.
 
 ## **7. Conclusion and Next Steps** 🚀
-- **Key Takeaway:** Logistic Regression is the best-performing model.
+- **Key Takeaway:** Random Forest is the best-performing model.
 - **Potential Improvements:**
   - Further hyperparameter tuning.
   - Feature engineering to extract more predictive information.
   - Deployment as a web-based application for real-time predictions.
 
 This project successfully built a predictive model for heart disease using machine learning techniques and data preprocessing strategies.
-
