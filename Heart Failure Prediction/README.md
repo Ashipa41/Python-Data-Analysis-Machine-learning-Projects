@@ -72,7 +72,7 @@ Feature importance was analyzed using the **Random Forest** model. The top contr
 
 The full feature importance distribution is visualized below:
 
-![Feature Importance - Random Forest](output.png)
+<img src="image/output.png" alt="Feature Importance - Random Forest" width="500">
 
 ### **Best Model:** 🏆
 - **Random Forest** performed the best with **85.87% accuracy** and the highest recall (85.67%), making it the most suitable model for identifying heart disease cases.
