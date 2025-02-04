@@ -76,18 +76,6 @@ Multiple regression models were trained and evaluated:
 - Future work may include **time-series forecasting** for long-term energy demand prediction.
 
 ---
-## 📁 Repository Structure
-```
-📂 Energy-Consumption-Prediction
- ├── 📄 energy_consumption_analysis.docx  # Detailed project documentation
- ├── 📄 README.md                         # Project summary and setup guide
- ├── 📂 data/                             # Dataset files
- ├── 📂 models/                           # Trained model files
- ├── 📂 notebooks/                        # Jupyter notebooks for analysis & training
- ├── 📂 scripts/                          # Python scripts for data preprocessing & modeling
-```
-
----
 ## 📝 Author
 Developed by **Paul**
 
