@@ -50,30 +50,13 @@ Cardiovascular diseases (CVDs) have led to the deaths of over **18 million peopl
 | Decision Tree            | 77.17%  | 77.08%   | 77.83%   | 77.00%  |
 
 ### **Confusion Matrix Analysis:** 🔍
-#### **Key Observations:**
-1. **Random Forest (Best Model)**
-   - **True Positives (93) and True Negatives (65)**: The model correctly predicted heart disease in 93 cases and correctly classified non-heart disease cases in 65 cases.
-   - **False Negatives (14)**: These cases were actually heart disease but misclassified as non-disease.
-   - **False Positives (12)**: These cases were incorrectly classified as heart disease.
-   - **Conclusion**: **Balanced model with high accuracy and low false negatives.**
-
-2. **Logistic Regression**
-   - **More False Negatives (20) than Random Forest**: This suggests it misses more cases of heart disease.
-   - **Better True Negative (67)** than Random Forest but **lower recall**.
-   - **Conclusion**: **Decent model but slightly weaker than Random Forest in recall.**
-
-3. **Decision Tree (Worst Performance)**
-   - **Most False Negatives (28) and False Positives (14)**: High misclassification rate.
-   - **Conclusion**: **Overfitting issue likely. Performs worse than other models.**
-
-4. **Gradient Boosting**
-   - **Performance close to Random Forest** but slightly **higher false negatives (18)**.
-   - **Conclusion**: **Good alternative model, but Random Forest still outperforms it.**
-
-5. **SVM**
-   - **False Negatives (21) and False Positives (11)**.
-   - **Slightly weaker recall** compared to Gradient Boosting and Random Forest.
-   - **Conclusion**: **Performs decently, but not the best.**
+| Model                | True Positives | True Negatives | False Positives | False Negatives | Conclusion |
+|----------------------|---------------|---------------|----------------|----------------|-------------|
+| **Random Forest**         | 93            | 65            | 12             | 14             | **Balanced model with high accuracy and low false negatives.** |
+| **Logistic Regression**   | 87            | 67            | 10             | 20             | **Decent model but slightly weaker recall than Random Forest.** |
+| **Decision Tree**         | 79            | 63            | 14             | 28             | **Overfitting issue likely. Performs worse than other models.** |
+| **Gradient Boosting**     | 89            | 65            | 12             | 18             | **Good alternative model, but slightly higher false negatives.** |
+| **SVM**                   | 86            | 66            | 11             | 21             | **Performs decently, but not the best model.** |
 
 ### **Best Model:** 🏆
 - **Random Forest** performed the best with **85.87% accuracy** and the highest recall (85.67%), making it the most suitable model for identifying heart disease cases.
