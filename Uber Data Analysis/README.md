@@ -96,4 +96,7 @@ The following visualizations were created to aid the analysis:
   - Use past ride behavior to offer customized trip suggestions.
 
 ---
+## 📝 Author
+Developed by **Paul**
 
+For any inquiries, feel free to reach out!
