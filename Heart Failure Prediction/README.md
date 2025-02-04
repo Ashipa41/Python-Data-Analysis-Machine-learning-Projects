@@ -77,14 +77,7 @@ The full feature importance distribution is visualized below:
 ### **Best Model:** 🏆
 - **Random Forest** performed the best with **85.87% accuracy** and the highest recall (85.67%), making it the most suitable model for identifying heart disease cases.
 
-## **6. Hyperparameter Tuning** 🎛️
-- Grid Search performed to optimize `C` (regularization strength) and solver type for Logistic Regression.
-- Best parameters found:
-  - `C = 0.1`
-  - `solver = 'liblinear'`
-- Tuned model improved generalization and maintained high accuracy.
-
-## **7. Conclusion and Next Steps** 🚀
+## **6. Conclusion and Next Steps** 🚀
 - **Key Takeaway:** Random Forest is the best-performing model.
 - **Potential Improvements:**
   - Further hyperparameter tuning.
