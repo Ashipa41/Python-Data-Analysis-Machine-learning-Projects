@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-<img width="900" alt="Data Cleaning" src="1704551752360.png"/>
+<img width="900" alt="Data Cleaning" src="image/1704551752360.png"/>
 
 The **Data Cleaning Master** is a Python application designed to efficiently clean datasets by handling duplicates, missing values, and providing a cleaned output within seconds. This application is user-friendly, highly performant, and has been tested on various datasets to ensure smooth execution and accuracy.
 
