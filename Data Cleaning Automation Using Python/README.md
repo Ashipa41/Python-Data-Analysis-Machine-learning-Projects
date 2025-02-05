@@ -1,4 +1,4 @@
-# 🚀 Data Cleaning Master - Python Application
+# 🚀 Data Cleaning Automation - Python Application
 
 ## 📝 Overview
 
