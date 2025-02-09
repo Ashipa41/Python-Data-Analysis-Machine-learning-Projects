@@ -5,7 +5,7 @@ Breast cancer is one of the most prevalent and life-threatening diseases among w
 
 This project leverages ML techniques to develop a reliable classification model for breast cancer detection, providing a structured workflow from data preprocessing to model evaluation.
 
----
+--
 
 ## 📊 **Dataset Overview**
 The analysis is based on the **Breast Cancer Wisconsin Dataset**, which contains features extracted from breast biopsy images. The dataset includes:
